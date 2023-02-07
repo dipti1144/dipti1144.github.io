@@ -9,12 +9,13 @@
 /* Colors */
 
 :root {
-  --first-color: #4070f4;
+  --first-color: #2293b8;
   --second-color: #0e2431;
   --color-primary: #4db5ff;
   --color-white: #fff;
   --color-bg: #1f1f38;
-  --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
+  --gardient-color: linear-gradient(to right, #09336a, #a3e1e4);
+  /* #5001fb, #8e0af3 */
 }
 
 /* FONT STYLE */
@@ -111,8 +112,10 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background: #fff;
+  background:  #fff;
+  color: #fff;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+
 }
 
 .image_style {
@@ -127,7 +130,11 @@ img {
   align-items: center;
   font-weight: var(--font-semi);
   /* background-color: black; */
+  /* color: #fff; */
+  
 }
+
+
 #github {
   margin: auto;
   display: block;
@@ -169,6 +176,7 @@ img {
 
 .nav_items {
   margin-bottom: var(--mb-4);
+  
 }
 
 .nav_link {
