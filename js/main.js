@@ -11,7 +11,7 @@ const showMenu = (toggleId, navId) => {
       }
 }
 
-showMenu('nav_toggle','nav_menu')
+showMenu('nav_toggle','nav-menu')
 
 // ACTIVE & REMOVE ACTIVE
 const navLink = document.querySelectorAll('.nav_link')
@@ -21,7 +21,7 @@ function linkAction(){
       navLink.forEach(n => n.classList.remove('active'))
       this.classList.add('active')
 
-      const navMenu = document.getElementById('nav_menu')
+      const navMenu = document.getElementById('nav-menu')
       navMenu.classList.remove('show')
 }
 
