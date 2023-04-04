@@ -26,3 +26,11 @@ function linkAction(){
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+
+document.getElementById("resume-link-1").addEventListener("click",()=>{
+      window.open("https://drive.google.com/file/d/1dpOJ34pbCxdVmbZV97BmKG_jxrlJiyKO/view?usp=sharing","_blank")
+})
+
+document.getElementById("resume-link-2").addEventListener("click",()=>{
+      window.open("https://drive.google.com/file/d/1dpOJ34pbCxdVmbZV97BmKG_jxrlJiyKO/view?usp=sharing","_blank")
+})
