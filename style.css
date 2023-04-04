@@ -130,7 +130,8 @@ img {
   align-items: center;
   font-weight: var(--font-semi);
   /* background-color: black; */
-  /* color: #fff; */
+  /* color: black; */
+  /* border: 1px solid black; */
   
 }
 
@@ -174,7 +175,7 @@ img {
   }
 }
 
-.nav_items {
+.nav-link {
   margin-bottom: var(--mb-4);
   
 }
@@ -569,7 +570,7 @@ img {
     height: calc(var(--header-height) + 1rem);
   }
 
-  .nav_items {
+  .nav-link {
     margin-left: var(--mb-6);
     margin-bottom: 0;
   }
