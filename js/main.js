@@ -31,6 +31,6 @@ document.getElementById("resume-link-1").addEventListener("click",()=>{
       window.open("https://drive.google.com/file/d/1dpOJ34pbCxdVmbZV97BmKG_jxrlJiyKO/view?usp=sharing","_blank")
 })
 
-document.getElementById("resume-link-2").addEventListener("click",()=>{
+document.getElementById("resume-button-2").addEventListener("click",()=>{
       window.open("https://drive.google.com/file/d/1dpOJ34pbCxdVmbZV97BmKG_jxrlJiyKO/view?usp=sharing","_blank")
 })
