@@ -341,6 +341,7 @@ img {
   left: 0;
   right: 0;
   margin: auto;
+  
   top: 2rem;
   background-color: var(--first-color);
 }
@@ -354,10 +355,14 @@ img {
 
 .about_subtitle {
   margin-bottom: var(--mb-2);
+  text-align: center  ;
+  margin-top: 20px;
 }
 
 .about_img {
+  display: flex;
   justify-content: center;
+  /* align-items: center; */
 }
 
 .about_img svg {
@@ -369,12 +374,12 @@ img {
 
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  /* background: linear-gradient(
+  background: linear-gradient(    
     45deg,
     transparent,
     var(--color-primary),
     transparent
-  ); */
+  );
   display: grid;
   place-items: center;
   transition: var(--transition);
@@ -383,6 +388,9 @@ img {
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(0deg);
+  width: 50%  ;
+  /* text-align: center; */
+  
 }
 /* .about__me-image:hover {
   transform: rotate(0deg);
