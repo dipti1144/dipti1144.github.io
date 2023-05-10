@@ -135,6 +135,7 @@ img {
   background:  #fff;
   /* color: #fff; */
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  /* padding: 0px */
 
 }
 
@@ -183,7 +184,7 @@ img {
     background-color: var(--second-color);
     transition: 0.5s;
   }
-
+  
   .work_img {
     width: 125%;
     /* height: fit-content; */
@@ -194,14 +195,21 @@ img {
   #github {
     width: 125%;
   }
+
   .about_container {
-    width: 120%;
+    width: 125%;
+    /* border: 1px solid blue; */
+    margin-top: -50%;
+    
   }
   .skills__container{
     /* border: 1px solid black; */
-    width: 150%;
+    /* width: 150%; */
     margin: auto;
     /* margin-left: 40%; */
+  }
+  .skills{
+    width: 125%;
   }
 
   .skills__img{
