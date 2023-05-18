@@ -87,7 +87,7 @@ section .title::after {
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: #fdd835;
+    color: blue;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -105,7 +105,7 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: #fdd835;
+    background: blue;
 }
 
 .navbar .max-width {
@@ -121,7 +121,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-    color: #fdd835;
+    color: blue;
     transition: all 0.3s ease;
 }
 
@@ -144,7 +144,7 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-    color: #fdd835;
+    color: blue;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -163,7 +163,7 @@ section .title::after {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #fdd835;
+    background: blue;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -228,25 +228,25 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: #fdd835;
+    color: blue;
     font-weight: 500;
 }
 
 .home .home-content a {
     display: inline-block;
-    background: #fdd835;
+    background: blue;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #fdd835;
+    border: 2px solid blue;
     transition: all 0.3s ease;
 }
 
 .home .home-content a:hover {
-    color: #fdd835;
+    color: blue;
     background: none;
 }
 
@@ -294,7 +294,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span:nth-child(2) {
-    color: #fdd835;
+    color: blue;
 }
 
 .about .about-content .right p {
@@ -303,7 +303,7 @@ section .title::after {
 
 .about .about-content .right a {
     display: inline-block;
-    background: #fdd835;
+    background: blue;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -311,12 +311,12 @@ section .title::after {
     margin-top: 20px;
     margin: 20px 10px 0px 0px;
     border-radius: 6px;
-    border: 2px solid #fdd835;
+    border: 2px solid blue;
     transition: all 0.3s ease;
 }
 
 .about .about-content .right a:hover {
-    color: #fdd835;
+    color: blue;
     background: none;
 }
 
@@ -389,7 +389,7 @@ section .title::after {
 
 .projects .serv-content .card i {
     font-size: 50px;
-    color: #fdd835;
+    color: blue;
     transition: color 0.3s ease;
 }
 
@@ -458,19 +458,19 @@ section .title::after {
 
 .skills .skills-content .left a {
     display: inline-block;
-    background: #fdd835;
+    background: blue;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid #fdd835;
+    border: 2px solid blue;
     transition: all 0.3s ease;
 }
 
 .skills .skills-content .left a:hover {
-    color: #fdd835;
+    color: blue;
     background: none;
 }
 
@@ -503,7 +503,7 @@ section .title::after {
     height: 100%;
     left: 0;
     top: 0;
-    background: #fdd835;
+    background: blue;
 }
 
 .skills-content .right .html::before {
@@ -544,7 +544,7 @@ section .title::after {
 }
 
 .teams .carousel .card:hover {
-    background: #fdd835;
+    background: blue;
 }
 
 .teams .carousel .card .box {
@@ -570,7 +570,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #fdd835;
+    border: 5px solid blue;
     transition: all 0.3s ease;
 }
 
@@ -589,7 +589,7 @@ section .title::after {
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid #fdd835 !important;
+    border: 2px solid blue !important;
     transition: all 0.3s ease;
 }
 
@@ -600,7 +600,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: #fdd835 !important;
+    background: blue !important;
 }
 
 /* ---------------------- github section styling -------------*/
@@ -656,7 +656,7 @@ section .title::after {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: #fdd835;
+    color: blue;
 }
 
 .contact .contact-content .row b {
@@ -742,13 +742,13 @@ section .title::after {
     border-radius: 6px;
     cursor: pointer;
     flex-wrap: nowrap;
-    background: #fdd835;
-    border: 2px solid #fdd835;
+    background: blue;
+    border: 2px solid blue;
     transition: all 0.3s ease;
 }
 
 .right form .button-area button:hover {
-    color: #fdd835;
+    color: blue;
     background: none;
 }
 
@@ -761,7 +761,7 @@ footer {
 }
 
 footer span a {
-    color: #fdd835;
+    color: blue;
     text-decoration: none;
 }
 
@@ -1004,7 +1004,7 @@ footer span a:hover {
     border-radius: 6px;
     border: none;
     cursor: pointer;
-    background-color: #fdd835;
+    background-color: blue;
     color: #fff;
     /* background: linear-gradient(180deg, #dc143c 0%, #dc143c 100%); */
     background-origin: border-box;
@@ -1017,7 +1017,7 @@ footer span a:hover {
 
 .liveBtn:hover {
     background-color: #f1f1f1;
-    border: 2px solid #fdd835;
+    border: 2px solid blue;
     color: #333;
 }
 
