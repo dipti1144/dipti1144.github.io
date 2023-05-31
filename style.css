@@ -625,8 +625,11 @@ section .title::after {
     content: "get in touch";
 }
 
+
+
 .contact .contact-content .column {
-    width: calc(50% - 30px);
+    margin: auto;
+    
 }
 
 .contact .contact-content .text {
@@ -871,9 +874,14 @@ footer span a:hover {
         margin-bottom: 20px;
     }
 
-    .skills .skills-content .column,
-    .contact .contact-content .column {
+    .skills .skills-content .column{
         width: 100%;
+        
+        margin-bottom: 35px;
+    }
+    .contact .contact-content .column {
+        width: calc(60% - 30px);
+        /* border: 1px solid blue; */
         margin-bottom: 35px;
     }
 
